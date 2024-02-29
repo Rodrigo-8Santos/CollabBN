@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+
+button {
+  background-color: #DD4814;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.geral{
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rotina{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  min-width: 25vw;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  margin-top: 40px; /* gambiarra rs rs */
 }
 
-.App-link {
-  color: #61dafb;
+.ae{
+  max-width:60vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
